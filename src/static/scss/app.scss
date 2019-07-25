@@ -1,0 +1,50 @@
+@import "./utils/vars";
+@import "./modules/bootstrapTheme";
+
+@import "./utils/_libs.scss";
+@import "./utils/_fonts.scss";
+@import "./utils/_mixins.scss";
+
+@import "./modules/buttons";
+
+html {
+  line-height: $mainLineHeight;
+  font-size: $mainFontSize;
+  color: $mainFontColor;
+  height: 100%;
+  @media screen and (max-width: $desktopWidth) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: $tableWidth) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: $phoneWidth) {
+    font-size: 14px;
+  }
+
+  @media only screen and (min-width: $desktopWidth) and (max-width: $lgDesktopWidth) {
+  }
+  @media only screen and (min-width: $tableWidth) and (max-width: $desktopWidth) {
+  }
+  @media only screen and (min-width: $phoneWidth) and (max-width: $tableWidth) {
+  }
+  @media only screen and (min-width: $smPhoneWidth) and (max-width: $phoneWidth) {
+  }
+  @media only screen and (min-width: 0) and (max-width: $smPhoneWidth) {
+  }
+}
+
+body {
+  font-family: $mainFont;
+  font-family: $mainFontSize;
+  font-weight: $mainFontWeight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  color: $dark-color;
+  font-size: 16px;
+  // background: url("http://itoo.urfu.ru/Content/images/bg.jpg") repeat center 0;
+  // background: #f1f1f1;
+  background: #f3f3f3;
+}
