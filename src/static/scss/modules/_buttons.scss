@@ -1,0 +1,30 @@
+.btn-lg-custom {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.shadow {
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-color {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.btn-color-hover:hover {
+  .btn-color {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+  }
+}
+
+.btn-selected {
+  box-shadow: 0px 0px 20px 1px rgba(73, 202, 116, 0.808) !important;
+}
+
+.hide {
+  display: none !important;
+}
