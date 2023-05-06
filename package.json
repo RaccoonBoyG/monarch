@@ -13,7 +13,7 @@
     "react-icons": "^3.7.0",
     "animate.css": "^3.7.2",
     "react-router-dom": "^5.0.1",
-    "npm-check-updates": "^3.1.20",
+    "npm-check-updates": "^16.10.9",
     "bootstrap": "^4.3.1"
   },
   "scripts": {
